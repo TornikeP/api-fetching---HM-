@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(49, 80, 80);
+    color: rgb(196, 189, 189);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+.form{
+    max-width: 300px;
+    width: 100%;
+}
+.input_search{
+    width: 100%;
+    display: block;
+    background-color: rgb(8, 14, 13);
+    border: none;
+    border-radius: 20px;
+    color: white;
+    padding: 1.5rem;
+    margin-bottom: rem;
+    font-size: 1.5rem;
+
+}
+.submit{
+    padding: 0.6rem;
+    width: 10%;
+    background-color: grey;
+    color: black;
+}
+#main{
+    display: flex;
+}
+.img{
+    width: 20%;
+}
